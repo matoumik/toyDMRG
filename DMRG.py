@@ -8,6 +8,11 @@ class DMRG:
         self.sweep = 0
         self.nleft = 0
         self.nright = self.nsites
+        
+    def H_contr_L(self, ncontr):
+        for i in range(ncontr):
+            if i == 0:
+                pass
 
     
     
